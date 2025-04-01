@@ -24,7 +24,7 @@ const Header = () => {
               <li className="header__content">COMMUNITY</li>
             </ul>
           </nav>
-          <h1 className="header__title">MY SHOP</h1>
+          <h1 className="header__title">MY SHOPPING MALL</h1>
           <ul className="header__menu">
             <li className="header__content">
               <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" />
