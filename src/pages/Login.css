@@ -1,0 +1,95 @@
+.login-wrapper {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 580px;
+  padding-top: 100px;
+}
+
+.login__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.login__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__btn {
+  background: black;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login__btn svg {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 30px;
+}
+
+.login__btn--kakao {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: black;
+  background-color: #fee500;
+}
+
+.login__btn--naver {
+  background-color: #1ec800;
+}
+
+.login__btn--naver svg {
+  fill: white;
+}
+
+.login__text-box {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__text-box .login__text:hover {
+  color: black;
+}
+
+.login__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 8px 0;
+  margin-top: 10px;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: black;
+}
+
+/* label 태그의 자식 요소인 input이 focus 되었을 때 text의 색상도 변경*/
+
+.login__label:focus-within .login__text {
+  color: black;
+}

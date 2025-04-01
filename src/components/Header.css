@@ -1,0 +1,95 @@
+/* css 변수 만들기 ( 컬러값 할당 ) */
+:root {
+  --main-color: #142d4c;
+}
+
+.header {
+  height: 20vh;
+}
+
+/* 위 헤더 */
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__nav-box {
+  width: 33%;
+}
+
+.header__list-box {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header__content {
+  margin: 0px 20px;
+}
+
+.header__content a {
+  color: black;
+}
+
+.header__title {
+  width: 33%;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header__menu {
+  width: 33%;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.header__content--badge-box {
+  position: relative;
+}
+
+.header_cart-badge {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 15px;
+  padding: 2px;
+  height: 15px;
+  color: white;
+  position: absolute;
+  top: -13px;
+  right: -13px;
+}
+
+.header_user-badge {
+  background-color: hwb(0 0% 100% / 0.242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 4px 6px;
+  height: 13px;
+  color: white;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 아래 헤더 */
+
+.header__category {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* .header__bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+} */
